@@ -1,0 +1,92 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://line.me/ti/p/~your_line_id"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "สวัสดี! นี่คือโปรไฟล์ของฉัน 😊",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center",
+        "margin": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ชื่อ:",
+            "size": "sm",
+            "color": "#555555",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "คู่หูเขียนโค้ด",
+            "size": "sm",
+            "color": "#111111",
+            "align": "end"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "สถานะ:",
+            "size": "sm",
+            "color": "#555555",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "พร้อมช่วยเหลือ!",
+            "size": "sm",
+            "color": "#111111",
+            "align": "end"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "แชร์โปรไฟล์",
+          "uri": "https://lin.ee/4DsuHQa"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}
